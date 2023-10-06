@@ -1,0 +1,274 @@
+@media screen and (min-device-width : 320px) and (max-device-width : 600px){
+  body{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    font-family: sans-serif;
+    gap: 10rem;
+  }
+  .right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .left{
+    display: flex;
+    flex-direction: column;
+    gap:4rem;
+    align-items: center;
+  }
+  #right
+  {
+  width:500px;
+  height: 400px;
+  text-align: center;
+  justify-content: center;
+  padding-top: 100px;
+  }
+  p{
+    font-weight: bold;
+    font-size: 30px;
+  }
+  
+  
+}
+@media  screen and (min-device-width:600px) {
+  body{
+    display: flex;
+    margin-top: 50px;
+    font-family: sans-serif;
+  }
+  .left
+ {
+  
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  align-items: center;
+ }
+ .right
+ {
+   margin-top: 150px;
+ }
+ #right
+ {
+  width:450px;
+  height: 200px;
+  text-align: center;
+  justify-content: center;
+  padding-top: 100px;
+ }
+ p{
+  font-weight: bold;
+  font-size: 20px;
+}
+label{
+  color: #bcbcbc;
+  font-weight: 700;
+}
+
+
+}
+@media screen {
+
+.text{
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  padding-left: 30px;
+}
+
+.text-color,.bg-colour{
+  position: relative; 
+  width:170px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+.Dropdown:hover .Dropdown-list,.Dropdown:hover .Dropdown-list-bg
+{
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  position: absolute;
+  width:200px;
+  margin-top: 7px;
+  background-color: white;
+  justify-content: space-evenly;
+  border: 2px solid #ebebeb;
+  border-radius: 10px;
+  padding: 7px;
+  
+}
+.Dropdown:hover::after
+{
+  content: " ";
+  background-color: white;
+  width: 10px;
+  height: 10px;
+  margin-top: 24px;
+  margin-left: -8px;
+  position: absolute;
+  transform: rotate(45deg);
+  border: 2px solid #ebebeb;
+  border-right: 0;
+  border-bottom: 0;
+}
+
+.Dropdown-list,.Dropdown-list-bg{
+  display: none;
+}
+.Dropdown
+{
+  position: absolute;
+  top: 25px;
+  right: 1px;
+  margin-right: 0;
+  transform: translateX(35px);
+}
+input{
+  width:200px;
+  height: 20px;
+  border: 2px solid #bcbcbc;
+  border-radius: 3px;
+  font-weight: 700;
+  color: #666668;
+}
+input:hover{
+  outline: none;
+}
+button
+{ 
+  width:20px;
+  height: 20px;
+  border: 0;
+  border-radius:0 ;
+}
+
+#btn-1,#btn-bg-1
+{
+  background-color: #b4b5f8;
+}
+#btn-2,#btn-bg-2
+{
+  background-color: #686af1;
+}
+#btn-3,#btn-bg-3
+{
+  background-color: #383ff0;
+}
+#btn-4,#btn-bg-4
+{
+  background-color: #232df3;
+}
+#btn-5,#btn-bg-5
+{
+  background-color: #020860;
+}
+#btn-6,#btn-bg-6
+{
+  background-color: #02034a;
+}
+#btn-7,#btn-bg-7
+{
+  background-color: #f3b6cb;
+}
+#btn-8,#btn-bg-8
+{
+  background-color: #ed7098;
+}
+#btn-9,#btn-bg-9
+{
+  background-color: #eb487b;
+}
+#btn-10,#btn-bg-10
+{
+  background-color: #d03052;
+}
+#btn-11,#btn-bg-11
+{
+  background-color: #891d35;
+}
+#btn-12,#btn-bg-12
+{
+  background-color: #8c1a30;
+}
+#btn-13,#btn-bg-13
+{
+  background-color: #f0a675;
+}
+#btn-14,#btn-bg-14
+{
+  background-color: #ee9963;
+}
+#btn-15,#btn-bg-15
+{
+  background-color: #eb7d40;
+}
+#btn-16,#btn-bg-16
+{
+  background-color: #d46436 ;
+}
+#btn-17,#btn-bg-17
+{
+  background-color: #a34e25;
+}
+#btn-18,#btn-bg-18
+{
+  background-color: #8c441e;
+}
+#btn-19,#btn-bg-19
+{
+  background-color: #fffd86;
+}
+#btn-20,#btn-bg-20
+{
+  background-color: #fffc77;
+}
+#btn-21,#btn-bg-21
+{
+  background-color: #fffc65;
+}
+#btn-22,#btn-bg-22
+{
+  background-color: #c9c94d ;
+}
+#btn-23,#btn-bg-23
+{
+  background-color: #b2b047;
+}
+#btn-24,#btn-bg-24
+{
+  background-color: #979938;
+}
+#btn-25,#btn-bg-25
+{
+  background-color: #bee3b8;
+}
+#btn-26,#btn-bg-26
+{
+  background-color: #9fd597;
+}
+#btn-27,#btn-bg-27
+{
+  background-color: #82c776;
+}
+#btn-28,#btn-bg-28
+{
+  background-color: #73c064;
+}
+#btn-29,#btn-bg-29
+{
+  background-color: #549646;
+}
+#btn-30,#btn-bg-30
+{
+  background-color: #3e7035;
+}
+label{
+  color: #bcbcbc;
+  font-weight: 700;
+}
+
+}
